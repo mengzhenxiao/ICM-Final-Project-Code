@@ -1,0 +1,17 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "description": "I am demonstrating npm",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "123000"
+  ],
+  "author": "mengzhen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

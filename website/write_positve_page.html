@@ -1,0 +1,44 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="positive_page.js"></script>
+    <script src="buttonclass.js"></script>
+    <script src="envelop.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="scrolling_button.css">
+  </head>
+  <body>
+
+<!-- scrolling button -->
+    <div id="scrolling button" class="icon fourth" >
+            <svg version="1.1" id="icon_arrow_svg" x="0px" y="0px" viewBox="0 0 125 125" enable-background="new 0 0 125 125" xml:space="preserve">
+                <g class="inner">
+                    <path fill="#f08c8e" d="M62.5,7C93.1,7,118,31.9,118,62.5c0,30.6-24.9,55.5-55.5,55.5S7,93.1,7,62.5C7,31.9,31.9,7,62.5,7 M62.5,0 C28,0,0,28,0,62.5C0,97,28,125,62.5,125S125,97,125,62.5C125,28,97,0,62.5,0L62.5,0z" />
+                </g>
+                <g class="outer">
+                    <path fill="#f08c8e" d="M62.5,7C93.1,7,118,31.9,118,62.5c0,30.6-24.9,55.5-55.5,55.5S7,93.1,7,62.5C7,31.9,31.9,7,62.5,7 M62.5,0 C28,0,0,28,0,62.5C0,97,28,125,62.5,125S125,97,125,62.5C125,28,97,0,62.5,0L62.5,0z" />
+                </g>
+                <circle class="back_circle" cx="60" cy="60" r="60" fill="#f08c8e" onclick="javascript:onTopClick();" />
+                <g class="circle_arrow">
+                    <g>
+                        <polygon class="arrow_bottom" fill-rule="evenodd" clip-rule="evenodd" fill="#f08c8e" points="82.2,50.2 61,71.2 65.9,76 87,55" />
+                    </g>
+                    <g>
+                        <polygon class="arrow_top" fill-rule="evenodd" clip-rule="evenodd" fill="#f08c8e" points="41,55.8 45.9,51 67,72 62.2,76.8" />
+                    </g>
+                </g>
+            </svg>
+        </div>
+
+<script>
+function onTopClick(){
+  window.location.hash="#inputPlace";
+}
+</script>
+    <h4>
+      Let's send positve energy to others!
+    </h4>
+    <div id="inputPlace" class="inputPlace">  </div>
+    <input id="userInput" class="input2"></input>
+</body></html>
